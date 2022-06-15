@@ -1,0 +1,102 @@
+// Bootstrap colours
+$bg-primary: #007BFF;
+$bg-secondary: #6C757D;
+$bg-success: #28A745;
+$bg-danger: #DC3545;
+$bg-warning: #FFC107;
+$bg-info: #18A2B8;
+$bg-light: #F8F9FA;
+$bg-dark: #333A40;
+$bg-white: #FFFFFF;
+
+// Site colours
+$banner: #212D49;
+$accent: mix(firebrick, #db4c3f, 5%);
+$accentlight: #db564a;
+$primary: lighten($banner, 5%);
+$secondary: steelblue;
+$tertiary: lightsteelblue;
+
+$grey0: #F6F5F8;
+$grey1: #E0DDDD;
+
+$textdark: darken(#0C1D31, 7%);
+$textgrey: lighten($textdark, 10%);
+$textlight: whitesmoke;
+
+// Button states
+$loading: $grey1;
+$error: $bg-danger;
+$warning: $bg-warning;
+$success: $bg-success;
+
+$danger-subtle: lighten($bg-danger, 40%);
+$success-subtle: lighten($bg-success, 50%);
+
+// Body
+$link: $textdark;
+$linkhover: $accent;
+$background: white;
+
+// Home page
+$tile_background: white;
+
+// Buttons
+$button: $accent;
+$buttonsecondary: $secondary;
+$buttontext: $textlight;
+$buttonhover: $secondary;
+$buttondisabled: $grey1;
+
+// Tags
+$tag_text: white;
+$tag_background: $accent;
+$tag_background: lighten($accent, 10%);
+
+// Banner
+$branding_text: white;
+$env_text: $accentlight;
+$sub_text: $accentlight;
+
+$banner_background: $banner;
+$banner_background_grad: darken($banner_background, 0%);
+$banner_grad: 180deg;
+
+$banner_sep: $banner_background;
+
+$banner_icon: $branding_text;
+$banner_text: $banner_icon;
+
+$logout: $button;
+$logout_hover: $buttonhover;
+
+// Index box/Admin box
+$index_box_background: $grey0;
+$index_box_background_grad: $grey0;
+$index_box_h1: $textdark;
+$index_box_text: $textdark;
+
+// Interaction box
+$interaction_box_background: $grey0;
+
+// Sidebar menu
+$sidebar_background: white;
+$sidebar_sep: $grey1;
+$sidebar_hover: $grey0;
+
+// Workspace list table
+$table_header: white;
+$table_accent: $accent;
+$table_stripe_even: $grey1;
+$table_stripe_odd: $grey0;
+$table_stripe_hover: $tertiary;
+
+// Workspace separation borders
+$border: #ddd;
+
+$link_heading: $textdark;
+$tab_heading: $banner;
+
+// Permissions
+$private_permission: grey;
+$public_permission: $bg-success;

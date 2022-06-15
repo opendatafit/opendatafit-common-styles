@@ -1,0 +1,26 @@
+@mixin clearfix(){
+  &:before,
+  &:after{
+    content: " "; 
+    display: table; 
+  }
+
+  &:after{
+    display: block;
+    clear: both;
+    height: 1px;
+    margin-top: -1px;
+    visibility: hidden;
+  }
+  &{
+    *zoom: 1;
+  }
+}
+
+@mixin constrain-container {
+  height: 100%;
+  max-height: 100%;
+  
+  width: 100%;
+  max-width: 100%;
+}
