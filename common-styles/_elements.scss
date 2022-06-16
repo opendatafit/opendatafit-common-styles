@@ -1,0 +1,33 @@
+body#opendatafit-webapp,
+figure.opendatafit-embed {
+  strong {
+    font-weight: bold;
+  }
+
+  emph {
+    font-style: italic;
+  }
+
+  dt {
+    font-weight: bold;
+  }
+
+  h1, h2, h3 {
+    font-family: font.$typeface-branding;
+    font-weight: 500;
+  }
+
+  // Links
+  a {
+    &:link, &:visited {
+      color: colour.$link;
+    }
+    &:hover, &:active {
+      color: colour.$linkhover;
+    }
+
+    &:disabled {
+      text-decoration: none;
+    }
+  }
+}

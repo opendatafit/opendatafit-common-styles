@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400|Roboto:300,400&display=swap');
+
+// bold
+@font-face { 
+  font-family: Cerebri Sans; 
+  font-weight: 700;
+  src: 
+    url("/assets/fonts/CerebriSans/CerebriSans-Bold.ttf") format('truetype'),
+    url("/assets/fonts/CerebriSans/CerebriSans-Bold.eot") format('embedded-opentype'), 
+    url("/assets/fonts/CerebriSans/CerebriSans-Bold.woff") format('woff'), 
+    url("/assets/fonts/CerebriSans/CerebriSans-Bold.svg") format('svg'); 
+}
+
+// semibold
+@font-face { 
+  font-family: Cerebri Sans; 
+  font-weight: 600;
+  src: 
+    url("/assets/fonts/CerebriSans/CerebriSans-SemiBold.ttf") format('truetype'),
+    url("/assets/fonts/CerebriSans/CerebriSans-SemiBold.eot") format('embedded-opentype'), 
+    url("/assets/fonts/CerebriSans/CerebriSans-SemiBold.woff") format('woff'), 
+    url("/assets/fonts/CerebriSans/CerebriSans-SemiBold.svg") format('svg'); 
+}
+
+// regular
+@font-face { 
+  font-family: Cerebri Sans; 
+  font-weight: 400;
+  src: 
+    url("/assets/fonts/CerebriSans/CerebriSans-Regular.ttf") format('truetype'),
+    url("/assets/fonts/CerebriSans/CerebriSans-Regular.eot") format('embedded-opentype'), 
+    url("/assets/fonts/CerebriSans/CerebriSans-Regular.woff") format('woff'), 
+    url("/assets/fonts/CerebriSans/CerebriSans-Regular.svg") format('svg'); 
+}
+
