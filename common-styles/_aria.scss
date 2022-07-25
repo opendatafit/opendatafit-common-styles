@@ -1,3 +1,6 @@
-[aria-hidden="true"] {
-  @include display.visuallyhidden;
+body.opendatafit-webapp,
+figure.opendatafit-embed {
+  [aria-hidden="true"] {
+    @include display.visuallyhidden;
+  }
 }
