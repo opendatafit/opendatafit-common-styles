@@ -14,7 +14,7 @@ figure.opendatafit-embed {
 
   h1, h2, h3 {
     font-family: font.$typeface-branding;
-    font-weight: 500;
+    font-weight: font.$typeface-branding-weight;
   }
 
   // Links
