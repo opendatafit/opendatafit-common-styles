@@ -25,17 +25,16 @@ figure.opendatafit-embed {
     @include reset.button;
 
     font-family: font.$typeface-condensed;
-    font-size: 1.15em;
+    font-size: 1em;
     font-weight: bold;
-    text-transform: lowercase;
-    font-variant: small-caps;
-    
+    text-transform: capitalize;
+
     cursor: pointer;
 
     vertical-align: middle;
 
-    border: 2px solid lighten(grey, 30%);
-    border-radius: 2px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 
     padding-left: .7em;
     padding-right: .7em;
