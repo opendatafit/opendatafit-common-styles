@@ -1,4 +1,6 @@
 h1.opendatafit-brand {
-  font-family: font.$typeface-branding;
-  font-weight: font.$typeface-branding-weight;
+  span.title-text {
+    font-family: font.$typeface-branding;
+    font-weight: font.$typeface-branding-weight;
+  }
 }
