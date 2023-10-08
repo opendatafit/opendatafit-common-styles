@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap");
+body.opendatafit strong,
+body.opendatafit-webapp strong,
+figure.opendatafit-embed strong {
+  font-weight: bold;
+}
+body.opendatafit emph,
+body.opendatafit-webapp emph,
+figure.opendatafit-embed emph {
+  font-style: italic;
+}
+body.opendatafit dt,
+body.opendatafit-webapp dt,
+figure.opendatafit-embed dt {
+  font-weight: bold;
+}
+body.opendatafit h1, body.opendatafit h2, body.opendatafit h3,
+body.opendatafit-webapp h1,
+body.opendatafit-webapp h2,
+body.opendatafit-webapp h3,
+figure.opendatafit-embed h1,
+figure.opendatafit-embed h2,
+figure.opendatafit-embed h3 {
+  --typeface: "Noto Sans", sans;
+  --typeface-heading: "Noto Sans", sans;
+  --typeface-heading-weight: 600;
+  --typeface-branding: "Cerebri Sans", sans;
+  --typeface-branding-weight: 600;
+  --typeface-condensed: "Noto Sans Display", sans;
+  font-family: var(--typeface-heading);
+  font-weight: var(--typeface-heading-weight);
+}
+body.opendatafit a,
+body.opendatafit-webapp a,
+figure.opendatafit-embed a {
+  --link: $textdark;
+  --linkhover: $accent;
+  --background: white;
+}
+body.opendatafit a:link, body.opendatafit a:visited,
+body.opendatafit-webapp a:link,
+body.opendatafit-webapp a:visited,
+figure.opendatafit-embed a:link,
+figure.opendatafit-embed a:visited {
+  color: var(--link);
+}
+body.opendatafit a:hover, body.opendatafit a:active,
+body.opendatafit-webapp a:hover,
+body.opendatafit-webapp a:active,
+figure.opendatafit-embed a:hover,
+figure.opendatafit-embed a:active {
+  color: var(--linkhover);
+}
+body.opendatafit a:disabled,
+body.opendatafit-webapp a:disabled,
+figure.opendatafit-embed a:disabled {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Cerebri Sans;
+  font-weight: 700;
+  src: url("/assets/fonts/CerebriSans/CerebriSans-Bold.ttf") format("truetype"), url("/assets/fonts/CerebriSans/CerebriSans-Bold.eot") format("embedded-opentype"), url("/assets/fonts/CerebriSans/CerebriSans-Bold.woff") format("woff"), url("/assets/fonts/CerebriSans/CerebriSans-Bold.svg") format("svg");
+}
+@font-face {
+  font-family: Cerebri Sans;
+  font-weight: 600;
+  src: url("/assets/fonts/CerebriSans/CerebriSans-SemiBold.ttf") format("truetype"), url("/assets/fonts/CerebriSans/CerebriSans-SemiBold.eot") format("embedded-opentype"), url("/assets/fonts/CerebriSans/CerebriSans-SemiBold.woff") format("woff"), url("/assets/fonts/CerebriSans/CerebriSans-SemiBold.svg") format("svg");
+}
+@font-face {
+  font-family: Cerebri Sans;
+  font-weight: 400;
+  src: url("/assets/fonts/CerebriSans/CerebriSans-Regular.ttf") format("truetype"), url("/assets/fonts/CerebriSans/CerebriSans-Regular.eot") format("embedded-opentype"), url("/assets/fonts/CerebriSans/CerebriSans-Regular.woff") format("woff"), url("/assets/fonts/CerebriSans/CerebriSans-Regular.svg") format("svg");
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 700;
+  src: url("/assets/fonts/NotoSans/NotoSans-Bold.ttf") format("truetype"), url("/assets/fonts/NotoSans/NotoSans-Bold.eot") format("embedded-opentype"), url("/assets/fonts/NotoSans/NotoSans-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 400;
+  src: url("/assets/fonts/NotoSans/NotoSans-Regular.ttf") format("truetype"), url("/assets/fonts/NotoSans/NotoSans-Regular.eot") format("embedded-opentype"), url("/assets/fonts/NotoSans/NotoSans-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 200;
+  src: url("/assets/fonts/NotoSans/NotoSans-Light.ttf") format("truetype"), url("/assets/fonts/NotoSans/NotoSans-Light.eot") format("embedded-opentype"), url("/assets/fonts/NotoSans/NotoSans-Light.woff") format("woff");
+}
+body.opendatafit-webapp [aria-hidden=true],
+body.opendatafit [aria-hidden=true],
+figure.opendatafit-embed [aria-hidden=true] {
+  margin: -1px !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  clip: rect(0, 0, 0, 0) !important;
+  position: absolute !important;
+}
+
+h1.opendatafit-brand span.title-text {
+  --typeface: "Noto Sans", sans;
+  --typeface-heading: "Noto Sans", sans;
+  --typeface-heading-weight: 600;
+  --typeface-branding: "Cerebri Sans", sans;
+  --typeface-branding-weight: 600;
+  --typeface-condensed: "Noto Sans Display", sans;
+  font-family: var(--typeface-branding);
+  font-weight: var(--typeface-branding-weight);
+}
+
+body.opendatafit-webapp input,
+body.opendatafit input,
+figure.opendatafit-embed input {
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+  color: #000;
+  line-height: 2em;
+  padding: 0 1ch;
+  border-radius: 4px;
+}
+body.opendatafit-webapp input:focus,
+body.opendatafit input:focus,
+figure.opendatafit-embed input:focus {
+  outline: #0e71f2 solid 2px;
+}
+body.opendatafit-webapp label,
+body.opendatafit label,
+figure.opendatafit-embed label {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+body.opendatafit-webapp input,
+body.opendatafit input,
+figure.opendatafit-embed input {
+  display: block;
+}
+body.opendatafit-webapp button,
+body.opendatafit button,
+figure.opendatafit-embed button {
+  background-color: transparent;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  box-shadow: none;
+  transition: none;
+  text-transform: none;
+  padding: 0;
+  font-variant: none;
+  font-weight: normal;
+  font-size: 1em;
+  --typeface: "Noto Sans", sans;
+  --typeface-heading: "Noto Sans", sans;
+  --typeface-heading-weight: 600;
+  --typeface-branding: "Cerebri Sans", sans;
+  --typeface-branding-weight: 600;
+  --typeface-condensed: "Noto Sans Display", sans;
+  font-family: var(--typeface-condensed);
+  font-size: 1em;
+  font-weight: normal;
+  cursor: pointer;
+  vertical-align: middle;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  transition: 0.3s ease-out;
+}
+body.opendatafit-webapp button i,
+body.opendatafit button i,
+figure.opendatafit-embed button i {
+  font-size: 0.8em;
+}
+body.opendatafit-webapp button:active,
+body.opendatafit button:active,
+figure.opendatafit-embed button:active {
+  box-shadow: none;
+}
+body.opendatafit-webapp button:disabled,
+body.opendatafit button:disabled,
+figure.opendatafit-embed button:disabled {
+  --bg-primary: #007BFF;
+  --bg-secondary: #6C757D;
+  --bg-success: #28A745;
+  --bg-danger: #DC3545;
+  --bg-warning: #FFC107;
+  --bg-info: #18A2B8;
+  --bg-light: #F8F9FA;
+  --bg-dark: #333A40;
+  --bg-white: #FFFFFF;
+  --banner: #212D49;
+  --accent: $accent;
+  --accentlight: #db564a;
+  --primary: lighten($banner, 5%);
+  --secondary: steelblue;
+  --tertiary: lightsteelblue;
+  --grey0: #F6F5F8;
+  --grey1: #E0DDDD;
+  --textdark: $textdark;
+  --textgrey: lighten($textdark, 10%);
+  --textlight: whitesmoke;
+  --loading: var(--grey1);
+  --error: var(--bg-danger);
+  --warning: var(--bg-warning);
+  --success: var(--bg-success);
+  --disabled-text: $disabled_text;
+  --disabled: var(--grey1);
+  cursor: not-allowed;
+  background-color: var(--disabled);
+  color: var(--disabled-text);
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
