@@ -6,5 +6,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/opendatafit/common-styles"
+  },
+  "scripts": {
+    "start": "http-server dummy",
+    "build": "sass -I . dummy/styles.scss dummy/styles.css"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "sass": "^1.25.0"
   }
 }
