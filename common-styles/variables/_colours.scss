@@ -1,0 +1,56 @@
+@mixin bootstrap {
+  --bg-primary: #007BFF;
+  --bg-secondary: #6C757D;
+  --bg-success: #28A745;
+  --bg-danger: #DC3545;
+  --bg-warning: #FFC107;
+  --bg-info: #18A2B8;
+  --bg-light: #F8F9FA;
+  --bg-dark: #333A40;
+  --bg-white: #FFFFFF;
+}
+
+$accent: mix(firebrick, #db4c3f, 5%);
+$textdark: darken(#0C1D31, 7%);
+$grey1: #E0DDDD;
+
+@mixin site {
+  $banner: #212D49;
+  --banner: #212D49;
+  --accent: $accent;
+  --accentlight: #db564a;
+  --primary: lighten($banner, 5%);
+  --secondary: steelblue;
+  --tertiary: lightsteelblue;
+
+  --grey0: #F6F5F8;
+  --grey1: #E0DDDD;
+  
+  --textdark: $textdark;
+
+  --textgrey: lighten($textdark, 10%);
+  --textlight: whitesmoke;
+}
+
+@mixin body {
+  --link: $textdark;
+  --linkhover: $accent;
+  --background: white;
+}
+
+@mixin button {
+  @include bootstrap;
+  @include site;
+
+  $buttondisabled: $grey1;
+  $disabled_text: mix(steelblue, $buttondisabled);
+
+  --loading: var(--grey1);
+  --error: var(--bg-danger);
+  --warning: var(--bg-warning);
+  --success: var(--bg-success);
+
+  --disabled-text: $disabled_text;
+
+  --disabled: var(--grey1);
+}

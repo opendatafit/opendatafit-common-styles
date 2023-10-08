@@ -1,3 +1,6 @@
+@use "variables/fonts";
+@use "variables/colours";
+
 body.opendatafit,
 body.opendatafit-webapp,
 figure.opendatafit-embed {
@@ -14,17 +17,19 @@ figure.opendatafit-embed {
   }
 
   h1, h2, h3 {
-    font-family: font.$typeface-heading;
-    font-weight: font.$typeface-heading-weight;
+    @include fonts.typeface;
+    font-family: var(--typeface-heading);
+    font-weight: var(--typeface-heading-weight);
   }
 
   // Links
   a {
+    @include colours.body;
     &:link, &:visited {
-      color: colour.$link;
+      color: var(--link);
     }
     &:hover, &:active {
-      color: colour.$linkhover;
+      color: var(--linkhover);
     }
 
     &:disabled {

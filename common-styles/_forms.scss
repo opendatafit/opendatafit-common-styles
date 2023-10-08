@@ -1,4 +1,9 @@
+@use "mixins/reset";
+@use "variables/colours";
+@use "variables/fonts";
+
 body.opendatafit-webapp,
+body.opendatafit,
 figure.opendatafit-embed {
   input {
     border: 1px solid lighten(grey, 30%);
@@ -23,8 +28,10 @@ figure.opendatafit-embed {
 
   button {
     @include reset.button;
+    @include colours.button;
+    @include fonts.typeface;
 
-    font-family: font.$typeface-condensed;
+    font-family: var(--typeface-condensed);
     font-size: 1em;
     font-weight: normal;
 
@@ -59,8 +66,8 @@ figure.opendatafit-embed {
 
     &:disabled {
       cursor: not-allowed;
-      background-color: colour.$buttondisabled;
-      color: mix(colour.$secondary, colour.$buttondisabled);
+      background-color: var(--disabled);
+      color: var(--disabled-text);
       box-shadow: none;
     }
   }

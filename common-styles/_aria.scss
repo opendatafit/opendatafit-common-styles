@@ -1,4 +1,7 @@
+@use "mixins/display";
+
 body.opendatafit-webapp,
+body.opendatafit,
 figure.opendatafit-embed {
   [aria-hidden="true"] {
     @include display.visuallyhidden;
