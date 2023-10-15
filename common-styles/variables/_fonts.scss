@@ -10,3 +10,7 @@
 @mixin icon {
   --icon-font: "FontAwesome";
 }
+
+@mixin monospace {
+  --icon-font: "Inconsolata";
+}
