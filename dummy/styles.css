@@ -1,26 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap");
-body.opendatafit strong,
-body.opendatafit-webapp strong,
-figure.opendatafit-embed strong {
+body.opendatastudio strong,
+body.opendatastudio-webapp strong,
+figure.opendatastudio-embed strong {
   font-weight: bold;
 }
-body.opendatafit emph,
-body.opendatafit-webapp emph,
-figure.opendatafit-embed emph {
+body.opendatastudio emph,
+body.opendatastudio-webapp emph,
+figure.opendatastudio-embed emph {
   font-style: italic;
 }
-body.opendatafit dt,
-body.opendatafit-webapp dt,
-figure.opendatafit-embed dt {
+body.opendatastudio dt,
+body.opendatastudio-webapp dt,
+figure.opendatastudio-embed dt {
   font-weight: bold;
 }
-body.opendatafit h1, body.opendatafit h2, body.opendatafit h3,
-body.opendatafit-webapp h1,
-body.opendatafit-webapp h2,
-body.opendatafit-webapp h3,
-figure.opendatafit-embed h1,
-figure.opendatafit-embed h2,
-figure.opendatafit-embed h3 {
+body.opendatastudio h1, body.opendatastudio h2, body.opendatastudio h3,
+body.opendatastudio-webapp h1,
+body.opendatastudio-webapp h2,
+body.opendatastudio-webapp h3,
+figure.opendatastudio-embed h1,
+figure.opendatastudio-embed h2,
+figure.opendatastudio-embed h3 {
   --typeface: "Noto Sans", sans;
   --typeface-heading: "Noto Sans", sans;
   --typeface-heading-weight: 600;
@@ -30,30 +30,30 @@ figure.opendatafit-embed h3 {
   font-family: var(--typeface-heading);
   font-weight: var(--typeface-heading-weight);
 }
-body.opendatafit a,
-body.opendatafit-webapp a,
-figure.opendatafit-embed a {
+body.opendatastudio a,
+body.opendatastudio-webapp a,
+figure.opendatastudio-embed a {
   --link: $textdark;
   --linkhover: $accent;
   --background: white;
 }
-body.opendatafit a:link, body.opendatafit a:visited,
-body.opendatafit-webapp a:link,
-body.opendatafit-webapp a:visited,
-figure.opendatafit-embed a:link,
-figure.opendatafit-embed a:visited {
+body.opendatastudio a:link, body.opendatastudio a:visited,
+body.opendatastudio-webapp a:link,
+body.opendatastudio-webapp a:visited,
+figure.opendatastudio-embed a:link,
+figure.opendatastudio-embed a:visited {
   color: var(--link);
 }
-body.opendatafit a:hover, body.opendatafit a:active,
-body.opendatafit-webapp a:hover,
-body.opendatafit-webapp a:active,
-figure.opendatafit-embed a:hover,
-figure.opendatafit-embed a:active {
+body.opendatastudio a:hover, body.opendatastudio a:active,
+body.opendatastudio-webapp a:hover,
+body.opendatastudio-webapp a:active,
+figure.opendatastudio-embed a:hover,
+figure.opendatastudio-embed a:active {
   color: var(--linkhover);
 }
-body.opendatafit a:disabled,
-body.opendatafit-webapp a:disabled,
-figure.opendatafit-embed a:disabled {
+body.opendatastudio a:disabled,
+body.opendatastudio-webapp a:disabled,
+figure.opendatastudio-embed a:disabled {
   text-decoration: none;
 }
 
@@ -87,9 +87,9 @@ figure.opendatafit-embed a:disabled {
   font-weight: 200;
   src: url("/assets/fonts/NotoSans/NotoSans-Light.ttf") format("truetype"), url("/assets/fonts/NotoSans/NotoSans-Light.eot") format("embedded-opentype"), url("/assets/fonts/NotoSans/NotoSans-Light.woff") format("woff");
 }
-body.opendatafit-webapp [aria-hidden=true],
-body.opendatafit [aria-hidden=true],
-figure.opendatafit-embed [aria-hidden=true] {
+body.opendatastudio-webapp [aria-hidden=true],
+body.opendatastudio [aria-hidden=true],
+figure.opendatastudio-embed [aria-hidden=true] {
   margin: -1px !important;
   padding: 0 !important;
   width: 1px !important;
@@ -100,7 +100,7 @@ figure.opendatafit-embed [aria-hidden=true] {
   position: absolute !important;
 }
 
-h1.opendatafit-brand span.title-text {
+h1.opendatastudio-brand span.title-text {
   --typeface: "Noto Sans", sans;
   --typeface-heading: "Noto Sans", sans;
   --typeface-heading-weight: 600;
@@ -111,9 +111,9 @@ h1.opendatafit-brand span.title-text {
   font-weight: var(--typeface-branding-weight);
 }
 
-body.opendatafit-webapp input,
-body.opendatafit input,
-figure.opendatafit-embed input {
+body.opendatastudio-webapp input,
+body.opendatastudio input,
+figure.opendatastudio-embed input {
   border: 1px solid #cdcdcd;
   border-radius: 4px;
   color: #000;
@@ -121,25 +121,25 @@ figure.opendatafit-embed input {
   padding: 0 1ch;
   border-radius: 4px;
 }
-body.opendatafit-webapp input:focus,
-body.opendatafit input:focus,
-figure.opendatafit-embed input:focus {
+body.opendatastudio-webapp input:focus,
+body.opendatastudio input:focus,
+figure.opendatastudio-embed input:focus {
   outline: #0e71f2 solid 2px;
 }
-body.opendatafit-webapp label,
-body.opendatafit label,
-figure.opendatafit-embed label {
+body.opendatastudio-webapp label,
+body.opendatastudio label,
+figure.opendatastudio-embed label {
   font-weight: bold;
   font-size: 0.9em;
 }
-body.opendatafit-webapp input,
-body.opendatafit input,
-figure.opendatafit-embed input {
+body.opendatastudio-webapp input,
+body.opendatastudio input,
+figure.opendatastudio-embed input {
   display: block;
 }
-body.opendatafit-webapp button,
-body.opendatafit button,
-figure.opendatafit-embed button {
+body.opendatastudio-webapp button,
+body.opendatastudio button,
+figure.opendatastudio-embed button {
   background-color: transparent;
   color: black;
   border: none;
@@ -197,19 +197,19 @@ figure.opendatafit-embed button {
   padding-bottom: 0.3em;
   transition: 0.3s ease-out;
 }
-body.opendatafit-webapp button i,
-body.opendatafit button i,
-figure.opendatafit-embed button i {
+body.opendatastudio-webapp button i,
+body.opendatastudio button i,
+figure.opendatastudio-embed button i {
   font-size: 0.8em;
 }
-body.opendatafit-webapp button:active,
-body.opendatafit button:active,
-figure.opendatafit-embed button:active {
+body.opendatastudio-webapp button:active,
+body.opendatastudio button:active,
+figure.opendatastudio-embed button:active {
   box-shadow: none;
 }
-body.opendatafit-webapp button:disabled,
-body.opendatafit button:disabled,
-figure.opendatafit-embed button:disabled {
+body.opendatastudio-webapp button:disabled,
+body.opendatastudio button:disabled,
+figure.opendatastudio-embed button:disabled {
   cursor: not-allowed;
   background-color: var(--disabled);
   color: var(--disabled-text);

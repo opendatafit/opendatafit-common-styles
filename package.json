@@ -1,11 +1,11 @@
 {
-  "name": "@opendatafit/common-styles",
+  "name": "@opendatastudio/common-styles",
   "version": "1.0.0",
   "author": "James Wilmot <jameswilmot2000@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/opendatafit/common-styles"
+    "url": "https://github.com/opendatastudio/common-styles"
   },
   "scripts": {
     "start": "http-server dummy",

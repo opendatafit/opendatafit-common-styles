@@ -1,6 +1,6 @@
 @use "variables/fonts";
 
-h1.opendatafit-brand {
+h1.opendatastudio-brand {
   span.title-text {
     @include fonts.typeface;
     font-family: var(--typeface-branding);

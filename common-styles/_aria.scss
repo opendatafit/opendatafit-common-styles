@@ -1,8 +1,8 @@
 @use "mixins/display";
 
-body.opendatafit-webapp,
-body.opendatafit,
-figure.opendatafit-embed {
+body.opendatastudio-webapp,
+body.opendatastudio,
+figure.opendatastudio-embed {
   [aria-hidden="true"] {
     @include display.visuallyhidden;
   }
